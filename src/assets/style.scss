@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    color: #66BFBF;
+
+    .navbar .nav-item .nav-link {
+        color: #66BFBF;
+        font-size: 18px;
+
+        &:hover {
+            color: #4c9494;
+        }
+    }
+
+    top-heading {
+        h1 {
+            color: #66BFBF;
+            font-family: 'Sacramento', cursive;
+            font-size: 70px !important;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #66BFBF;
+        }
+    }
+
+    .bg-image {
+        background-color: black;
+    }
+
+    .main-content {
+        color: #66BFBF;
+        background-color: black;
+        height: 450px;
+    }
+
+    .main-para {
+        width: 50%;
+        margin: auto;
+    }
+
+    hr {
+        border: 6px dotted #48dad0;
+        background-color: black;
+        border-bottom: none;
+        width: 4%;
+        margin: 80px auto;
+    }
+
+    .card {
+        width: 17rem;
+		height: 100%;
+
+		.card-img-top{
+			height: 100%;
+		}
+    }
+	.card-container{
+		display:flex;
+		align-items:center;
+		min-height:100vh;
+	  }
+	  .card-img-overlay{
+		 transform: translateY(13rem);
+		 transition: transform .18s ease-in;
+		 background-color: rgba(0,0,0,1);
+		.card-text{
+		  opacity:0;
+		  transform: translateY(-6rem);
+		  transition: opacity .05s ease-in, transform .25s ease-in;
+		}
+		.btn{
+		  opacity:0;
+		  transform: translateY(2rem);
+		}
+	  }
+	  .card-deck{
+		height: 300px;
+	}
+	  .card{
+		overflow: hidden;
+		background-color: #345;
+		.card-img{
+			height: 210px;
+		}
+		&:hover{
+		  .card-img{
+			mix-blend-mode: overlay;
+		  }
+		  .card-img-overlay{
+			top: 90px;
+			transform: translateY(0);
+			transition: transform .5s ease-out;
+			background-color: #060505;
+		  }
+		  .card-text{
+			opacity: 1;
+			transform: translateX(0);
+			transition: opacity .5s ease-out, transform .5s ease-out;
+		  }
+		  .btn{
+			opacity:1;
+			transform: translateX(0);
+			transition: opacity .5s ease-out, transform .5s ease-out;
+		  }
+		}
+	  }
+
+    .bottom-content {
+        background-image: url('../../public/images/skills_image.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        text-align: center;
+        background-position: center;
+        padding: 200px 410px;
+
+        h5 {
+            background-color: black;
+        }
+    }
+
+    .ficon a {
+        position: relative;
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        line-height: 42px;
+        background: #2e3138;
+        color: #9ea0a9 !important;
+        text-align: center;
+        border-radius: 50%;
+        margin: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        padding-top: 5px;
+
+        &:hover {
+            background-color: #48dad0;
+            color: white !important;
+        }
+    }
+
+    .footer-copyright {
+        color: #48dad0;
+        font-weight: 600;
+    }
+
+    .top-container {
+        padding-bottom: 0px !important;
+    }
+}
+

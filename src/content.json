@@ -1,0 +1,56 @@
+{
+  "title": "Naina Jagiasi",
+  "nav_data": [
+    {
+      "navlinkdata":"Home"
+    },
+    {
+      "navlinkdata":"Projects"
+    },
+    {
+      "navlinkdata":"Paper Publications"
+    },
+    {
+      "navlinkdata":"Resume"
+    },
+    {
+      "navlinkdata":"Contact"
+    }
+  ],
+  "hero_heading":{
+    "mainheroImage":"images/mountain.png",
+    "heading1": "I am Naina Jagiasi",
+    "heading2": "a Software Developer"
+  },
+  "main_component":{
+    "heroImage":"images/Naina.png",
+    "smallHeading": "Hello",
+    "paragraph":"I am Naina Jagiasi, I dream to become a Full Stack Developer because Designing and Developing different types of websites using new technology is my passion",
+    "cardData": [
+      {
+        "cardTitle":"Card title",
+        "cardImage": "images/web.jpg",
+        "cardText":"Some quick example text to build on the ",
+        "cardButton":"Go somewhere"
+      },
+      {
+        "cardTitle":"Card title",
+        "cardImage":"images/db.png",
+        "cardText":"Some quick example text to build on the ",
+        "cardButton":"Go somewhere"
+      },
+      {
+        "cardTitle":"Card title",
+        "cardImage":"images/script.png",
+        "cardText":"Some quick example text to build on the ",
+        "cardButton":"Go somewhere"
+      },
+      {
+        "cardTitle":"Card title",
+        "cardImage":"images/ms.png",
+        "cardText":"Some quick example text to build on the ",
+        "cardButton":"Go somewhere"
+      }
+    ]
+  }
+}
