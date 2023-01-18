@@ -1,5 +1,6 @@
 {
   "title": "Naina Jagiasi",
+  "nav_logo":"images/logo.png",
   "nav_data": [
     {
       "navlinkdata":"Home"
@@ -19,7 +20,7 @@
   ],
   "hero_heading":{
     "mainheroImage":"images/mountain.png",
-    "heading1": "I am Naina Jagiasi",
+    "heading1": "I am Naina",
     "heading2": "a Software Developer"
   },
   "main_component":{
@@ -28,29 +29,30 @@
     "paragraph":"I am Naina Jagiasi, I dream to become a Full Stack Developer because Designing and Developing different types of websites using new technology is my passion",
     "cardData": [
       {
-        "cardTitle":"Card title",
+        "cardTitle":"Web Development Skills",
         "cardImage": "images/web.jpg",
-        "cardText":"Some quick example text to build on the ",
+        "cardText":"HTML5 \n CSS3 \n SCSS \n javaScript \n Bootstrap4 \n ReactJs\nBootstrap Studio\nWebflow",
         "cardButton":"Go somewhere"
       },
       {
-        "cardTitle":"Card title",
+        "cardTitle":"Design & CMS",
         "cardImage":"images/db.png",
-        "cardText":"Some quick example text to build on the ",
+        "cardText":"Canva\nAdobe Photoshop\nNetlify CMS\nCrownpeak\n",
         "cardButton":"Go somewhere"
       },
       {
-        "cardTitle":"Card title",
+        "cardTitle":"Backend Scripting & Database",
         "cardImage":"images/script.png",
-        "cardText":"Some quick example text to build on the ",
+        "cardText":"nodeJs\nMySql\nphp\nAWS S3\nAWS Cloudfront\nGIT\nBitBucket\nVeeva Vault\n ",
         "cardButton":"Go somewhere"
       },
       {
-        "cardTitle":"Card title",
+        "cardTitle":"Microsoft & Google Services Skills",
         "cardImage":"images/ms.png",
-        "cardText":"Some quick example text to build on the ",
+        "cardText":"PowerApps\nRPA Flow\nSharePoint\nAzure\nGoogle Sites\nGoogle AppScript\nGoogle Sheets\n ",
         "cardButton":"Go somewhere"
       }
-    ]
+    ],
+    "bottomimage":"images/skills_image.png"
   }
 }

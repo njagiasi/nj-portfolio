@@ -2,33 +2,37 @@ import React from 'react'
 import SkillsComponent from './SkillsComponent'
 
 export default function MainContentComponent(props) {
-    const {heroImage, smallHeading, paragraph}  = props.main_component;
+    const {heroImage, smallHeading, paragraph, bottomimage}  = props.main_component;
   return (
     <>
-    <div className='main-content text-center'>
+    <div className='container main-content text-center'>
         <div className='container'>
             <img className='mx-auto' src={heroImage} alt="" />           
             <h5  className='mt-4'>{smallHeading}</h5>
             <p  className='main-para'>{paragraph}</p>
         </div>
-        <hr/>
-    </div>  
-    <div>
-    <SkillsComponent {...props.main_component}/>
     </div>
     <hr/>
-        <div className='container bottom-content text-white'>
-            <div className='row'>
-                <div className=''>
-                    <div>
-                    <h5>Hover Me To Watch Exciting Projects!</h5>
+    <SkillsComponent {...props.main_component}/>
+    <hr/>
+        <div className='container-fluid'>
+            <div className='row bottomdata'>
+                <div className='col-12 col-md-6 bottomcontent'>
+                    <div className='p-5 my-3 d-flex justify-content-centerd-flex flex-column min-vh-100 justify-content-center align-items-center'>
+                    <h2 className='d-flex justify-content-centerd-flex flex-column min-vh-100 justify-content-center align-items-center'>Any Projects/Publications To<span>Discuss?</span></h2>
+                    <button className='btn mt-3'>Shoot Hi! </button>
+                    </div>
+                </div>
+                <div className='col-12 col-md-6'>
+                    <div className='bottomimage'>
+                    <img src ={bottomimage} />
                     </div>
                 </div>
             </div>
         </div>
     <hr/>
     <div className='container'>
-        <div className='row py-5 text-center'>
+        <div className='row text-center'>
             <h2 className='mx-auto'>
                 Get In Touch
             </h2>
@@ -38,7 +42,7 @@ export default function MainContentComponent(props) {
             <button type="btn" className='btn text-center mx-auto my-2'> Contact Me</button>
         </div>
     </div>
-    <br/>
+    <hr/>
     </>
   )
 }

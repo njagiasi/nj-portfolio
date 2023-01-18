@@ -1,10 +1,11 @@
 import React from 'react'
 export default function Footer() {
     return (
-        <footer class="page-footer font-small bg-dark text-white text-center">
+        <footer class="page-footer text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 pt-5">
+                        <p>Find me in</p>
                         <div class="flex-center ficon">
                             <a class="fb-ic">
                                 <i class="fab fa-facebook-f fa-lg white-text fa-2x"> </i>
