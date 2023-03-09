@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-
-
+import { Link } from 'react-router-dom';
 export default function Navbar(props) {
   const navDataItems = props.nav_data;
   const navlogo = props.nav_logo;
@@ -17,10 +16,10 @@ export default function Navbar(props) {
   return (
     <div className='container'>
     <nav className={colorChange ? 'navbar colorChange navbar-expand-lg navbar-dark fixed-top' : 'navbar navbar-expand-lg navbar-dark fixed-top'}>
-    <a class="navbar-brand" href="#">
+    <Link class="navbar-brand navImage" to="/">
     <img src={navlogo} width="30" height="30" alt="" />
-  </a>
-    <span class="navbar-brand mb-0 h1">NAINA<span className='jchar'>.J</span></span>
+  
+    <span class="navbar-brand mb-0 h1">NAINA<span className='jchar'>.J</span></span></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -28,11 +27,12 @@ export default function Navbar(props) {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto">
           <>
-          {navDataItems.map(({ navlinkdata }) => (
+          {navDataItems.map(({ navlinkdata, path }) => (
             <li className="nav-item">
-                <a className="nav-link" href="/">{navlinkdata}</a>
+                <Link className="nav-link" to={path}>{navlinkdata}</Link>
             </li>
           ))}
+
           </>
       </ul>
       <button className='btn'>Let's Connect</button>
