@@ -1,7 +1,13 @@
+<<<<<<< Updated upstream
 import React from 'react';
 import SkillsComponent from './SkillsComponent';
 import { Link } from 'react-router-dom';
 
+=======
+import React from 'react'
+import SkillsComponent from './SkillsComponent'
+import { PaperPublication } from '../pages/PaperPublication';
+>>>>>>> Stashed changes
 
 export default function MainContentComponent(props) {
     const {heroImage, smallHeading, paragraph, projectImage}  = props.main_component;
@@ -45,11 +51,20 @@ export default function MainContentComponent(props) {
     <hr/>
     <SkillsComponent {...props.main_component}/>
     <hr/>
+<<<<<<< Updated upstream
         <div className='container'>
             <div className='row bottomdata mb-5 pb-5'>
                 <div className='col-12 col-md-7'>
                     <div className='bottomcontent'>
                     <h2 className=''>Any Projects/Publications To<span>Discuss?</span></h2>
+=======
+        <div className='container-fluid'>
+            <div className='row bottomdata'>
+                <div className='col-12 col-md-6 bottomcontent'>
+                    <div className='p-5 my-3 d-flex justify-content-centerd-flex flex-column min-vh-100 justify-content-center align-items-center'>
+                    <h2 className='d-flex justify-content-centerd-flex flex-column min-vh-100 justify-content-center align-items-center'>Any Projects/Publications To<span>Discuss?</span></h2>
+                    <button className='btn mt-3' onClick={<PaperPublication/>}>Shoot Hi! </button>
+>>>>>>> Stashed changes
                     </div>
                 </div>
                 <div className='col-12 col-md-5'>
