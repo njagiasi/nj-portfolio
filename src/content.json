@@ -59,5 +59,27 @@
         "cardButton":"Go somewhere"
       }
     ]
+  },
+  "projects":{
+    "pjData": [
+      {
+        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
+        "pjImage": "images/symphony.PNG",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      },
+      {
+        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
+        "pjImage": "images/symphony.PNG",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      },
+      {
+        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
+        "pjImage": "images/symphony.PNG",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      }
+    ]
   }
 }
