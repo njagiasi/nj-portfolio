@@ -7,13 +7,13 @@ export default function Footer() {
                     <div class="col-md-12 pt-5">
                         <p>Find me in</p>
                         <div class="flex-center ficon">
-                            <a class="fb-ic">
+                            <a class="fb-ic" href="/">
                                 <i class="fab fa-facebook-f fa-lg white-text fa-2x"> </i>
                             </a>
-                            <a class="li-ic">
+                            <a class="li-ic" href="/">
                                 <i class="fab fa-linkedin-in fa-lg white-text fa-2x"> </i>
                             </a>
-                            <a class="ins-ic">
+                            <a class="ins-ic" href="/">
                                 <i class="fab fa-instagram fa-lg white-text fa-2x"> </i>
                             </a>
                         </div>

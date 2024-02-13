@@ -3,19 +3,24 @@
   "nav_logo":"images/logo.png",
   "nav_data": [
     {
-      "navlinkdata":"Home"
+      "navlinkdata":"Home",
+      "path": "/"
     },
     {
-      "navlinkdata":"Projects"
+      "navlinkdata":"Projects",
+      "path": "/projects"
     },
     {
-      "navlinkdata":"Paper Publications"
+      "navlinkdata":"Paper Publications",
+      "path": "/paper-publications"
     },
     {
-      "navlinkdata":"Resume"
+      "navlinkdata":"Resume",
+      "path": "/Resume"
     },
     {
-      "navlinkdata":"Contact"
+      "navlinkdata":"Contact",
+      "path": "/contact"
     }
   ],
   "hero_heading":{
@@ -24,9 +29,10 @@
     "heading2": "a Software Developer"
   },
   "main_component":{
-    "heroImage":"images/Naina.png",
-    "smallHeading": "Hello",
-    "paragraph":"I am Naina Jagiasi, I dream to become a Full Stack Developer because Designing and Developing different types of websites using new technology is my passion",
+    "heroImage":"images/Naina.jpeg",
+    "smallHeading": "I Can <span><br/>Visualize<br/></span> Your Idea",
+    "paragraph":"Something about the design and development that you don't know but I know as I am a Software Developer",
+    "projectImage":"images/myProject.png",
     "cardData": [
       {
         "cardTitle":"Web Development Skills",
@@ -52,7 +58,28 @@
         "cardText":"PowerApps\nRPA Flow\nSharePoint\nAzure\nGoogle Sites\nGoogle AppScript\nGoogle Sheets\n ",
         "cardButton":"Go somewhere"
       }
-    ],
-    "bottomimage":"images/skills_image.png"
+    ]
+  },
+  "projects":{
+    "pjData": [
+      {
+        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
+        "pjImage": "images/symphony.PNG",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      },
+      {
+        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
+        "pjImage": "images/symphony.PNG",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      },
+      {
+        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
+        "pjImage": "images/symphony.PNG",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      }
+    ]
   }
 }

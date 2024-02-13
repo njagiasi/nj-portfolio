@@ -1,18 +1,23 @@
-
 import './App.css';
+import { Routes, Route} from 'react-router-dom'
 import Footer from './components/Footer';
-import HeroComponent from './components/HeroComponent';
-import MainContentComponent from './components/MainContentComponent';
 import Navbar from './components/Navbar';
 import './assets/style.scss';
 import data from './content.json'
-
+import { HOME } from './pages/Home';
+import { PP } from './pages/pp'
+import { PROJECTS } from './pages/projects'
 function App() {
   return (
     <>
     <Navbar {...data}/>
-    <HeroComponent {...data}/>
-    <MainContentComponent {...data}/>
+    <Routes>
+      <Route path='/' element={<HOME {...data}/>}></Route>
+      <Route path='/projects' element={<PROJECTS {...data}/>}></Route>
+      <Route path='/paper-publications' element={<PP {...data}/>}></Route>
+      <Route path='/Resume' element={<HOME {...data}/>}></Route>
+      <Route path='/contact' element={<HOME {...data}/>}></Route>
+    </Routes>
     <Footer />
     </>
   );
