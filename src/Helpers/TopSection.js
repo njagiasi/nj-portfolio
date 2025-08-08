@@ -1,6 +1,7 @@
 import React from 'react';
 import InfoBlock from './InfoBlock';
 import heroImage from '../assets/images/Naina.jpeg'
+import resume from '../assets/docs/Resume.pdf'
 const TopSection = () => {
   const infoData = [
     { title: '5+', subtitle: ' Years Experience' },
@@ -21,9 +22,14 @@ const TopSection = () => {
         <p className="main-para">
           Something About the design and development that you don't know but I know as I am a Software Developer
         </p>
-        <a className="btn btn-outline text-center mx-auto my-2" href="/#contactMe">
+        <div className="contactResume d-flex">
+          <a className="btn btn-outline text-center mx-2 my-2" href="/#contactMe">
           Contact Me
         </a>
+        <a className="btn btn-outline text-center mx-2 my-2" href={resume} target="_blank" rel="noopener noreferrer" download>
+            Resume
+        </a>
+        </div>
       </div>
 
       {/* Middle: Image */}
