@@ -15,8 +15,8 @@ const GetInTouchSection = () => (
         collaborating on projects that drive real impact. Feel free to reach out
         to discuss opportunities or just say hello!
       </p>
-      <p className="d-inline">
-        <a href="tel:+1234567890" className="navLink nav-link">
+      <p className="callEmail">
+        <a href="tel:+15196164323" className="navLink nav-link">
           Call Me
         </a>{" "}
         or

@@ -1,8 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 body {
   background-color: var(--primary-background) !important;
@@ -29,7 +29,7 @@ body {
     }
   }
 
-    .customBtn {
+  .customBtn {
     color: var(--secondary-color);
     background-color: var(--primary-background);
 
@@ -50,13 +50,28 @@ body {
   }
 
   //Contact
-  .contact{
+  .contact {
     padding: 40px 20px;
     text-align: center;
     background-color: var(--primary-card-bg);
-    color:#e3f7f9;;
+    color: #e3f7f9;
+
+    .callEmail {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-weight: bold;
+      a {
+        text-decoration: underline;
+      }
+    }
   }
-    #contactMe, #about-me, #education, #experience, #skills, #projects {
-  scroll-margin-top: 100px; /* Adjust based on your header height */
-}
+  #contactMe,
+  #about-me,
+  #education,
+  #experience,
+  #skills,
+  #projects {
+    scroll-margin-top: 100px; /* Adjust based on your header height */
+  }
 }
