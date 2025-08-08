@@ -1,0 +1,82 @@
+.navbar {
+    background-color: var(--primary-color); /* Solid background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+
+    .navbar-nav .navLink {
+      color: var(--primary-background);
+      font-size: 18px;
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+    .customNavItem{
+      color: var(--primary-background);
+    margin-bottom: 0px;
+    padding: 5px;
+    font-size: 24px;
+    }
+.inputBox {
+  margin-top: 200px;
+}
+.toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color:#e3f7f9;;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #4caf50;
+}
+
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.toggle-label {
+  font-family: sans-serif;
+}
+  }
+  

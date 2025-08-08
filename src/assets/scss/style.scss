@@ -1,0 +1,62 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+body {
+  background-color: var(--primary-background) !important;
+  color: var(--primary-color) !important;
+
+  //Global Main Heading
+  .main-heading h2 {
+    font-size: 2rem;
+    text-align: center;
+    // padding: 7rem 0 0;
+  }
+
+  //Global Main Button
+  .btn {
+    width: 200px;
+    font-size: 18px;
+    color: var(--primary-color);
+    border: 1px solid;
+
+    &:hover {
+      background-color: var(--secondary-color);
+      color: var(--primary-background);
+      border: 1px solid var(--primary-color);
+    }
+  }
+
+    .customBtn {
+    color: var(--secondary-color);
+    background-color: var(--primary-background);
+
+    &:hover {
+      color: var(--primary-background);
+      border: 1px solid var(--primary-color);
+    }
+  }
+
+  // Global Horizontal Row
+  hr {
+    border: 6px dotted var(--primary-color);
+    background-color: var(--primary-background);
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+    opacity: 1;
+  }
+
+  //Contact
+  .contact{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: var(--primary-card-bg);
+    color:#e3f7f9;;
+  }
+    #contactMe, #about-me, #education, #experience, #skills, #projects {
+  scroll-margin-top: 100px; /* Adjust based on your header height */
+}
+}

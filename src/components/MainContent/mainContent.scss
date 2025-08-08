@@ -1,0 +1,120 @@
+.main-content {
+  color: var(--primary-color);
+
+  .main-content-row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: flex-start;
+
+    .main-content-left {
+      order: 1;
+      flex: 1 1 30%;
+      max-width: 300px;
+
+      h1 span {
+        color: var(--secondary-color);
+      }
+
+      .main-para {
+        font-size: 12px;
+      }
+    }
+
+    .main-content-center {
+      order: 2;
+      flex: 1 1 30%;
+      min-width: 250px;
+      position: relative;
+      text-align: center;
+
+      img {
+        width: 80%;
+        height: auto;
+        border: 3px solid transparent;
+        border-image: linear-gradient(
+            360deg,
+            hsl(180, 100%, 72%),
+            var(--primary-background)
+          )
+          1;
+      }
+
+      h5 {
+        color: var(--primary-background);
+        background-color: rgba(var(--primary-transparent-bg), 0.72);
+        font-weight: bold;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        width: 80%;
+        padding: 20px;
+        text-align: left;
+      }
+    }
+
+    .main-content-right {
+      order: 3;
+      flex: 1 1 30%;
+      min-width: 250px;
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+      .main-content-col3 {
+        h5 {
+          color: var(--primary-color);
+          &.title {
+            color: var(--secondary-color);
+          }
+        }
+      }
+    }
+    // Responsive for small screens
+    // for tablet and below
+    @media (max-width: 1023px) and (min-width: 767px) {
+      .main-content-right {
+        order: 3;
+
+        .info-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .main-content-left {
+        order: 2;
+      }
+
+      .main-content-center {
+        order: 1;
+        img {
+          max-width: 60%;
+          height: auto;
+        }
+
+        h5 {
+          width: 60%;
+          text-align: center;
+        }
+      }
+
+      .main-content-right {
+        order: 3;
+
+        .info-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    }
+  }
+}

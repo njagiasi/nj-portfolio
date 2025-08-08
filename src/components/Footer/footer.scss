@@ -1,0 +1,29 @@
+ //Footer
+  footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    .ficon a {
+      position: relative;
+      display: inline-block;
+      width: 45px;
+      height: 45px;
+      line-height: 42px;
+      background: #2e3138;
+      color: #9ea0a9 !important;
+      text-align: center;
+      border-radius: 50%;
+      margin: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      padding-top: 5px;
+
+      &:hover {
+        color: var(--secondary-color) !important;
+      }
+    }
+
+    .footer-copyright {
+      font-weight: 600;
+    }
+  }

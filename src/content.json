@@ -1,103 +1,49 @@
 {
-  "title": "Naina Jagiasi",
-  "nav_logo":"images/logo.png",
-  "nav_data": [
-    {
-      "navlinkdata":"Home",
-<<<<<<< Updated upstream
-      "path": "/"
-    },
-    {
-      "navlinkdata":"Projects",
-      "path": "/projects"
-    },
-    {
-      "navlinkdata":"Paper Publications",
-      "path": "/paper-publications"
-    },
-    {
-      "navlinkdata":"Resume",
-      "path": "/Resume"
-    },
-    {
-      "navlinkdata":"Contact",
-      "path": "/contact"
-=======
-      "href":"/"
-    },
-    {
-      "navlinkdata":"Projects",
-      "href":"/Project"
-    },
-    {
-      "navlinkdata":"Paper Publications",
-      "href":"/PaperPublication"
-    },
-    {
-      "navlinkdata":"Resume",
-      "href":"/"
-    },
-    {
-      "navlinkdata":"Contact",
-      "href":"/"
->>>>>>> Stashed changes
-    }
-  ],
-  "hero_heading":{
-    "mainheroImage":"images/mountain.png",
-    "heading1": "I am Naina",
-    "heading2": "a Software Developer"
-  },
   "main_component":{
-    "heroImage":"images/Naina.jpeg",
-    "smallHeading": "I Can <span><br/>Visualize<br/></span> Your Idea",
-    "paragraph":"Something about the design and development that you don't know but I know as I am a Software Developer",
-    "projectImage":"images/myProject.png",
     "cardData": [
       {
-        "cardTitle":"Web Development Skills",
-        "cardImage": "images/web.jpg",
-        "cardText":"HTML5 \n CSS3 \n SCSS \n javaScript \n Bootstrap4 \n ReactJs\nBootstrap Studio\nWebflow",
-        "cardButton":"Go somewhere"
+        "cardTitle":"Languages & Databases",
+        "cardImage": "web.jpg",
+        "cardText":"Python, JavaScript, ASP.NET, PostgreSQL, MongoDB, HTML5, CSS3"
       },
       {
-        "cardTitle":"Design & CMS",
-        "cardImage":"images/db.png",
-        "cardText":"Canva\nAdobe Photoshop\nNetlify CMS\nCrownpeak\n",
-        "cardButton":"Go somewhere"
+        "cardTitle":"Libraries & Frameworks",
+        "cardImage":"db.png",
+        "cardText":"React.js, Express.js, Node.js, Flask, Bootstrap, Pandas, NumPy, Matplotlib"
       },
       {
-        "cardTitle":"Backend Scripting & Database",
-        "cardImage":"images/script.png",
-        "cardText":"nodeJs\nMySql\nphp\nAWS S3\nAWS Cloudfront\nGIT\nBitBucket\nVeeva Vault\n ",
-        "cardButton":"Go somewhere"
+        "cardTitle":"Version Control & Deployment",
+        "cardImage":"script.png",
+        "cardText":"Git, Github, Bitbucket, AWS (S3, Cloudfront), Azure DevOps"
       },
       {
-        "cardTitle":"Microsoft & Google Services Skills",
-        "cardImage":"images/ms.png",
-        "cardText":"PowerApps\nRPA Flow\nSharePoint\nAzure\nGoogle Sites\nGoogle AppScript\nGoogle Sheets\n ",
-        "cardButton":"Go somewhere"
+        "cardTitle":"Testing",
+        "cardImage":"ms.png",
+        "cardText":"Postman, Cypress, Selenium IDE, React Testing Library, Jenkins, Jekyll"
       }
     ]
   },
   "projects":{
     "pjData": [
       {
-        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
-        "pjImage": "images/symphony.PNG",
+        "pjTitle":"Symphony - 2019",
+        "pjSubHeading":"Application",
+        "pjImage": "Symphony.png",
         "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
         "pjButton":"Go somewhere"
       },
       {
-        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
-        "pjImage": "images/symphony.PNG",
-        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjTitle":"Silent Week - 2020",
+        "pjSubHeading":"Web Page",
+        "pjImage": "Rocket.png",
+        "pjText":"<span> Purpose: </span> Build end to end web application having features like spin wheel, Timer countdown,FAQ, Testimonial. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, Bootstrap4, javaScript, Angular 8",
         "pjButton":"Go somewhere"
       },
       {
-        "pjTitle":"Symphony - 2019 <span className='pjTitleSpan'>Application</span>",
-        "pjImage": "images/symphony.PNG",
-        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjTitle":"EmPower-2021",
+        "pjSubHeading":"Web Page",
+        "pjImage": "EmPower.png",
+        "pjText":"<span> Purpose: </span> Build the End to End website for Leader Gamification. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, AngularJs, Bootstrap4",
         "pjButton":"Go somewhere"
       }
     ]

@@ -1,0 +1,28 @@
+.eduWrapper{
+    h2{
+        text-align: center;
+    }
+    padding: 10px;
+        .eduCard{
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+        background-color: var(--primary-card-bg);
+        color:#e3f7f9;;
+        padding: 20px;
+        margin: 20px;
+        .cardImage img {
+            border-radius: 10px;
+            width:220px;
+            height:110px;
+        }
+}
+@media (max-width:768px) {
+    .eduCard {
+            grid-template-columns: 1fr;
+            text-align: center;
+            .cardContent{
+                padding-top: 20px;
+            }
+    }
+}
+}

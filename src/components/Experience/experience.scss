@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+.expSection {
+  font-family: 'Quicksand', sans-serif;
+  // padding: 2rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .timeline {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 4px;
+      height: 100%;
+      background: var(--primary-card-bg);
+    }
+
+    .timeline_item {
+      position: relative;
+      width: 50%;
+      padding: 1rem 2rem;
+      box-sizing: border-box;
+    }
+
+    .timeline_dot {
+      position: absolute;
+      top: 1rem;
+      width: 16px;
+      height: 16px;
+      background: #1ef3e4;
+      border: 2px solid var(--primary-card-bg);
+      border-radius: 50%;
+      z-index: 2;
+    }
+
+    .timeline_card {
+      background-color: var(--primary-card-bg);
+      color:#e3f7f9;;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card_title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .card_text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    // Left items
+    .timeline_item:nth-child(odd) {
+      left: 0;
+      text-align: right;
+
+      .timeline_dot {
+        right: -8px;
+      }
+
+      .timeline_card {
+        margin-right: auto;
+      }
+    }
+
+    // Right items
+    .timeline_item:nth-child(even) {
+      left: 50%;
+      text-align: left;
+
+      .timeline_dot {
+        left: -8px;
+      }
+
+      .timeline_card {
+        margin-left: auto;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .timeline_item,
+      .timeline_item:nth-child(even),
+      .timeline_item:nth-child(odd) {
+        width: 100%;
+        left: 0;
+        text-align: left;
+
+        .timeline_dot {
+          left: 12px;
+          right: auto;
+        }
+
+        .timeline_card {
+          margin: 0;
+        }
+      }
+
+      &::before {
+        left: 18px;
+        transform: none;
+      }
+    }
+  }
+}
