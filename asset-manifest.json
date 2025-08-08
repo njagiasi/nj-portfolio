@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nj-portfolio/static/css/main.c280e727.css",
+    "main.js": "/nj-portfolio/static/js/main.cb75531e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/nj-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/EmPower.png": "/nj-portfolio/static/media/EmPower.6be24cfcd21da315b201.png",
+    "static/media/Rocket.png": "/nj-portfolio/static/media/Rocket.7f3cfc03beaf0d7e6b41.png",
+    "static/media/Symphony.png": "/nj-portfolio/static/media/Symphony.21f3cea0469a844675e6.png",
+    "static/media/pp2.jpg": "/nj-portfolio/static/media/pp2.5dd673a5d0f6e02d7a3b.jpg",
+    "static/media/Resume.pdf": "/nj-portfolio/static/media/Resume.434467711dd96a86e186.pdf",
+    "static/media/pp1.jpeg": "/nj-portfolio/static/media/pp1.5a2641188f3c9bbfb0e8.jpeg",
+    "static/media/Naina.jpeg": "/nj-portfolio/static/media/Naina.b8c71852b68416b6e92b.jpeg",
+    "static/media/symphony-ticker.PNG": "/nj-portfolio/static/media/symphony-ticker.8595b42d2ff63b6a46bc.PNG",
+    "static/media/Naina.png": "/nj-portfolio/static/media/Naina.555f88b4a35aa520000c.png",
+    "index.html": "/nj-portfolio/index.html",
+    "main.c280e727.css.map": "/nj-portfolio/static/css/main.c280e727.css.map",
+    "main.cb75531e.js.map": "/nj-portfolio/static/js/main.cb75531e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/nj-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c280e727.css",
+    "static/js/main.cb75531e.js"
+  ]
+}
