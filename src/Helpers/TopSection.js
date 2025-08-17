@@ -19,8 +19,13 @@ const TopSection = () => {
         <h1>
           I Can <span><br />Visualize<br /></span> Your Idea
         </h1>
-        <p className="main-para">
-          Something About the design and development that you don't know but I know as I am a Software Developer
+        <h5>
+         <strong> Full Stack Developer </strong>
+        </h5>
+          <p className="main-para">
+          {/* Skilled in React, .NET Core, JavaScript, SQL, and Cloud Deployment
+          <br /> */}
+          Expertise in Frontend (React, JavaScript, Bootstrap), Backend (.NET Core, APIs), and Databases (SQL, MongoDB)
         </p>
         <div className="contactResume d-flex">
           <a className="btn btn-outline text-center mx-2 my-2" href="/#contactMe">

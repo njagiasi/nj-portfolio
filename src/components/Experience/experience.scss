@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 .expSection {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   // padding: 2rem;
 
   h2 {
@@ -17,7 +17,7 @@
     padding: 2rem 0;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 50%;
@@ -47,10 +47,24 @@
 
     .timeline_card {
       background-color: var(--primary-card-bg);
-      color:#e3f7f9;;
+      color: var(--primary-background);
       padding: 1rem;
       border-radius: 8px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+      .card_para {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: space-between;
+        background-color: var(--primary-background);
+        padding: 5px 10px;
+        margin: 10px 0;
+        color: var(--primary-color);
+
+        p{
+          margin: 0;
+        }
+      }
     }
 
     .card_title {

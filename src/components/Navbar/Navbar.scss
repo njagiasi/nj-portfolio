@@ -7,7 +7,8 @@
       font-size: 18px;
 
       &:hover {
-        color: var(--secondary-color);
+      color: var(--primary-background);
+        text-decoration: underline;
       }
     }
     .customNavItem{
@@ -16,6 +17,25 @@
     padding: 5px;
     font-size: 24px;
     }
+    /* Remove border if you don’t want */
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  margin-left: auto;
+}
+
+/* Dark theme → white hamburger */
+/* Dark theme → white hamburger */
+.toggle-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox='0%200%2030%2030'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20stroke='%23ffffff'%20stroke-width='2'%20stroke-linecap='round'%20stroke-miterlimit='10'%20d='M4%207h22M4%2015h22M4%2023h22'/%3E%3C/svg%3E");
+}
+
+/* Light theme → black hamburger */
+.toggle-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox='0%200%2030%2030'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20stroke='%23000000'%20stroke-width='2'%20stroke-linecap='round'%20stroke-miterlimit='10'%20d='M4%207h22M4%2015h22M4%2023h22'/%3E%3C/svg%3E");
+}
+
+
 .inputBox {
   margin-top: 200px;
 }
@@ -42,7 +62,7 @@
 .slider {
   position: absolute;
   cursor: pointer;
-  background-color: #ccc;
+  background-color: yellow;
   border-radius: 34px;
   top: 0;
   left: 0;
@@ -78,5 +98,35 @@ input:checked + .slider::before {
 .toggle-label {
   font-family: sans-serif;
 }
+
   }
+.navbar-toggler{
+  color: var(--secondary-color) !important;
+}
+  /* Navbar.scss */
+
+/* 1. Offcanvas width */
+.offcanvas {
+  width: 50% !important;           /* Half screen width */
+  background-color: var(--navbar-bg) !important; /* Transparent white */
+  backdrop-filter: blur(10px);     /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-left: none;               /* Clean edge */
+  color: var(--primary-background) !important;   /* Text color */
+}
+
+.offcanvas-body, 
+.offcanvas-header {
+  position: relative;
+  z-index: 1; /* content above the blurred box */
+  color: var(--primary-color) !important;
+}
+
+
+@media (max-width:1024px) {
+  .customNavItem{
+    display: none;
+  }
+}
+
   

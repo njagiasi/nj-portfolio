@@ -3,20 +3,20 @@ import './edu.scss'
 const eduList = [
       {
       title: "Conestoga College Institute of Technology and Advanced Learning",
-      course: "PostGrad Diploma Certification in Computer Application Development",
-      grade: "3.85/4",
+      course: "PGD in Computer Application Development (May 2024 - Dec 2024)",
+      grade: "3.85/4 GPA",
       image: "https://www.ebmag.com/wp-content/uploads/2023/11/Conestoga-Skilled-Trades-Cambridge-NOV2023-55803.jpeg"
     },
     {
       title: "Conestoga College Institute of Technology and Advanced Learning",
-      course: "PostGrad Diploma Certification in Business Analytics",
-      grade: "3.73/4",
+      course: "PGD in Business Analytics (May 2023 - Dec 2023)",
+      grade: "3.73/4 GPA",
       image: "https://www.ebmag.com/wp-content/uploads/2023/11/Conestoga-Skilled-Trades-Cambridge-NOV2023-55803.jpeg"
     },
     {
-      title: "Mumbai University",
-      course: "Bachelor of Engineering in Computer Science",
-      grade: "7.1/10",
+      title: "Vivekanand Education Society Institute of Technology",
+      course: "B.E Computer Engineering (May 2017 - Aug 2017)",
+      grade: "7.0/10 CGPA",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdwBelWplaDSIan6Fy-lELvYPZ_5EgD9BzA&s"
     }
 ];
@@ -32,12 +32,12 @@ const Education = () => {
           </div>
           <div className="cardContent">
             <h5>
-              {item.title}
+              <strong>{item.title}</strong>
               </h5>
               <h6>
               {item.course}
               </h6>
-              <p>{item.grade}</p>
+              <p><strong>{item.grade}</strong></p>
           </div>
         </div>
         ))}

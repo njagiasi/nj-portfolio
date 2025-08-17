@@ -6,8 +6,8 @@
         .eduCard{
             display: grid;
             grid-template-columns: 1fr 4fr;
-        background-color: var(--primary-card-bg);
-        color:#e3f7f9;;
+         background-color: var(--primary-card-bg);
+    color: var(--primary-background);
         padding: 20px;
         margin: 20px;
         .cardImage img {
