@@ -7,14 +7,12 @@ const GetInTouchSection = () => (
   >
     <div className="contact">
       <h2>Get In Touch</h2>
-      <h3>
-        Thanks for checking out my portfolio! I’d love to hear your feedback.
-      </h3>
-      <p>
-        I’m passionate about building efficient, user-friendly applications and
-        collaborating on projects that drive real impact. Feel free to reach out
-        to discuss opportunities or just say hello!
-      </p>
+      <h5>
+        I’d love to hear your feedback or discuss opportunities.
+      </h5>
+      <h6>
+        Feel free to reach out!
+      </h6>
       <p className="callEmail">
         <a href="tel:+15196164323" className="navLink nav-link">
           Call Me

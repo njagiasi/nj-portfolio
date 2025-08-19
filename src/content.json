@@ -1,47 +1,35 @@
 {
-  "projects":{
+  "projects": {
     "pjData": [
       {
-        "pjTitle":"Symphony - 2019",
-        "pjSubHeading":"Application",
-        "pjImage": "Symphony.png",
-        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
-        "pjButton":"Go somewhere"
+        "pjTitle": "Symphony Application",
+        "pjSubHeading": "HTML5 | CSS3 | JavaScript | Azure",
+        "pjText": "<strong>Purpose:</strong> Allow users to check in to the company's annual event via unique QR code.<br/><strong>Features:</strong> QR Code generation, KBC Quiz Theme, Dress Code, Travel & Event Routes, Dining.<br/><strong>Responsive:</strong> Fully responsive deployment on Azure Cloud."
       },
       {
-        "pjTitle":"Silent Week - 2020",
-        "pjSubHeading":"Web Page",
-        "pjImage": "Rocket.png",
-        "pjText":"<span> Purpose: </span> Build end to end web application having features like spin wheel, Timer countdown,FAQ, Testimonial. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, Bootstrap4, javaScript, Angular 8",
-        "pjButton":"Go somewhere"
+        "pjTitle": "Silent Week Page",
+        "pjSubHeading": "React.js | Node.js | React-Bootstrap | AWS S3 & Lambda | SQL",
+        "pjText": "<strong>Purpose:</strong> Keep customers engaged during production downtime.<br/><strong>Features:</strong> Spin the Wheel, Dino Game, Countdown Timer, FAQ.<br/><strong>Responsive:</strong> Mobile-first responsive page."
       },
       {
-        "pjTitle":"EmPower-2021",
-        "pjSubHeading":"Web Page",
-        "pjImage": "EmPower.png",
-        "pjText":"<span> Purpose: </span> Build the End to End website for Leader Gamification. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, AngularJs, Bootstrap4",
-        "pjButton":"Go somewhere"
+        "pjTitle": "Indie Fusion",
+        "pjSubHeading": "React.js | Node.js | Express.js | MongoDB",
+        "pjText": "<strong>Purpose:</strong> A platform for users to collaborate and register for events.<br/><strong>Features:</strong> Collab requests, Profile creation/deletion, Accept/Deny requests, Event registration, Email verification.<br/><strong>Responsive:</strong> Built with SCSS Grid/Flexbox."
       },
       {
-        "pjTitle":"Symphony - 2019",
-        "pjSubHeading":"Application",
-        "pjImage": "Symphony.png",
-        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
-        "pjButton":"Go somewhere"
+        "pjTitle": "Airline Data Analytics",
+        "pjSubHeading": "Python | NumPy | Matplotlib | Seaborn | Chart.js",
+        "pjText": "<strong>Purpose:</strong> Analyze airline booking data to detect seasonal & city-wise trends.<br/><strong>Features:</strong> Data cleaning, Chart visualizations, Analysis algorithms."
       },
       {
-        "pjTitle":"Silent Week - 2020",
-        "pjSubHeading":"Web Page",
-        "pjImage": "Rocket.png",
-        "pjText":"<span> Purpose: </span> Build end to end web application having features like spin wheel, Timer countdown,FAQ, Testimonial. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, Bootstrap4, javaScript, Angular 8",
-        "pjButton":"Go somewhere"
+        "pjTitle": "BP Measurement",
+        "pjSubHeading": "ASP.NET MVC | SQL Database",
+        "pjText": "<strong>Purpose:</strong> Collect and analyze customer BP health data.<br/><strong>Features:</strong> Register/Login, Admin Dashboard, BP Chart, Add/Edit/Delete records."
       },
       {
-        "pjTitle":"EmPower-2021",
-        "pjSubHeading":"Web Page",
-        "pjImage": "EmPower.png",
-        "pjText":"<span> Purpose: </span> Build the End to End website for Leader Gamification. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, AngularJs, Bootstrap4",
-        "pjButton":"Go somewhere"
+        "pjTitle": "CRUD Application",
+        "pjSubHeading": "React.js | Node.js | Express.js | API Integration",
+        "pjText": "<strong>Purpose:</strong> Learn full-stack integration with React & Express.<br/><strong>Features:</strong> Add, Edit, Delete, Create records."
       }
     ]
   }

@@ -6,16 +6,16 @@ export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
   const getInitialMode = () => {
-    const stored = localStorage.getItem("lightMode");
+    const stored = localStorage.getItem("darkMode");
     return stored === null ? true : stored === "true";
   };
 
-  const [lightMode, setDarkMode] = useState(getInitialMode);
+  const [darkMode, setDarkMode] = useState(getInitialMode);
 
   const toggleTheme = () => {
     setDarkMode((mode) => {
       const updated = !mode;
-      localStorage.setItem("lightMode", updated); // Save new value
+      localStorage.setItem("darkMode", updated); // Save new value
       return updated;
     });
   };
@@ -23,12 +23,12 @@ export const ThemeProvider = ({ children }) => {
   useEffect(() => {
     document.documentElement.setAttribute(
       "data-theme",
-      lightMode ? "light" : "dark"
+      darkMode ? "dark" : "light"
     );
-  }, [lightMode]);
+  }, [darkMode]);
 
 return (
-  <ThemeContext.Provider value={{ toggleTheme, darkMode: !lightMode, theme: lightMode ? "light" : "dark" }}>
+  <ThemeContext.Provider value={{ toggleTheme, darkMode: !darkMode, theme: darkMode ? "dark" : "light" }}>
     {children}
   </ThemeContext.Provider>
 );

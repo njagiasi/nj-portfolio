@@ -10,20 +10,15 @@ export const ProjectComponent = (props) => {
       </div>
 
       <div className="project-grid">
-        {pjData.map(({ pjTitle, pjSubHeading, pjText, pjImage }, index) => (
+        {pjData.map(({ pjTitle, pjSubHeading, pjText }, index) => (
           <div className="project-card" key={index}>
-            {/* <img
-              className="project-image"
-              src={require(`../../assets/images/${pjImage}`)}
-              alt={pjTitle}
-            /> */}
             <div className="project-content">
               <h3 className="ppheading">{pjTitle}</h3>
-              <h4 className="ppSubheading">{pjSubHeading}</h4>
               <p
                 className="description"
                 dangerouslySetInnerHTML={{ __html: pjText }}
               ></p>
+              <h4 className="ppSubheading"><strong>{pjSubHeading}</strong></h4>
             </div>
           </div>
         ))}
