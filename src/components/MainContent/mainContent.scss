@@ -48,12 +48,12 @@ margin-top: 5rem;
         background-color: rgba(var(--primary-transparent-bg), 0.72);
         font-weight: bold;
         position: absolute;
-        top: 89%;
+        top: 85%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 0;
         width: 80%;
-        padding: 20px;
+        padding: 15px;
         text-align: left;
       }
     }
@@ -101,6 +101,11 @@ margin-top: 5rem;
           font-size: 1.75rem;
         }
       }
+      .main-content-center {
+        h5{
+          top: 75%;
+        }
+      }
       .main-content-right {
         order: 3;
 
@@ -118,6 +123,7 @@ margin-top: 5rem;
         font-size: 12px;
       }
       .main-content-left {
+        margin: 20px;
         order: 2;
       }
 
@@ -131,6 +137,8 @@ margin-top: 5rem;
         h5 {
           width: 60%;
           text-align: center;
+          top: 87%;
+          padding: 15px;
         }
       }
 

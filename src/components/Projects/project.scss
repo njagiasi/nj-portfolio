@@ -13,7 +13,9 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;    
+    padding: 20px;
+    margin: 10px 20px;
 
     &:hover {
       transform: translateY(-5px);
