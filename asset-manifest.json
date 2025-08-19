@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/nj-portfolio/static/css/main.c8aa8585.css",
-    "main.js": "/nj-portfolio/static/js/main.f2782a4d.js",
+    "main.js": "/nj-portfolio/static/js/main.2d9b8442.js",
     "static/js/787.28cb0dcd.chunk.js": "/nj-portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Resume.pdf": "/nj-portfolio/static/media/Resume.434467711dd96a86e186.pdf",
+    "static/media/Resume.pdf": "/nj-portfolio/static/media/Resume.07fa8205790f1c92de3b.pdf",
     "static/media/Naina.jpeg": "/nj-portfolio/static/media/Naina.b8c71852b68416b6e92b.jpeg",
     "static/media/agile.png": "/nj-portfolio/static/media/agile.9efb632e08055aaa5b0a.png",
     "static/media/postgres.png": "/nj-portfolio/static/media/postgres.fe898a34af1baec4ec98.png",
@@ -19,11 +19,11 @@
     "static/media/express.png": "/nj-portfolio/static/media/express.3f6d752193b41a28270a.png",
     "index.html": "/nj-portfolio/index.html",
     "main.c8aa8585.css.map": "/nj-portfolio/static/css/main.c8aa8585.css.map",
-    "main.f2782a4d.js.map": "/nj-portfolio/static/js/main.f2782a4d.js.map",
+    "main.2d9b8442.js.map": "/nj-portfolio/static/js/main.2d9b8442.js.map",
     "787.28cb0dcd.chunk.js.map": "/nj-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8aa8585.css",
-    "static/js/main.f2782a4d.js"
+    "static/js/main.2d9b8442.js"
   ]
 }
