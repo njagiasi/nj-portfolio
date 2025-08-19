@@ -2,6 +2,7 @@ import React from "react";
 import InfoBlock from "./InfoBlock";
 import heroImage from "../assets/images/Naina.jpeg";
 import resume from "../assets/docs/Resume.pdf";
+import { HashLink } from "react-router-hash-link";
 import {
   FaGithub,
   FaLinkedin,
@@ -56,9 +57,9 @@ const TopSection = () => {
             </div>
             <div className="contactResume">
               {/* Contact */}
-              <a href="/#contactMe" className="icon-link phone-icon" title="Contact Me">
-                <FaPhone size={28} />
-              </a>
+              <HashLink smooth to="/#contactMe" className="icon-link phone-icon" title="Contact Me">
+  <FaPhone size={28} />
+</HashLink>
 
               {/* Resume */}
               <a
