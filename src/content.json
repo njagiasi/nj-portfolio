@@ -2,34 +2,39 @@
   "projects": {
     "pjData": [
       {
-        "pjTitle": "Symphony Application",
-        "pjSubHeading": "HTML5 | CSS3 | JavaScript | Azure",
-        "pjText": "<strong>Purpose:</strong> Allow users to check in to the company's annual event via unique QR code.<br/><strong>Features:</strong> QR Code generation, KBC Quiz Theme, Dress Code, Travel & Event Routes, Dining.<br/><strong>Responsive:</strong> Fully responsive deployment on Azure Cloud."
-      },
-      {
-        "pjTitle": "Silent Week Page",
-        "pjSubHeading": "React.js | Node.js | React-Bootstrap | AWS S3 & Lambda | SQL",
-        "pjText": "<strong>Purpose:</strong> Keep customers engaged during production downtime.<br/><strong>Features:</strong> Spin the Wheel, Dino Game, Countdown Timer, FAQ.<br/><strong>Responsive:</strong> Mobile-first responsive page."
-      },
-      {
-        "pjTitle": "Indie Fusion",
-        "pjSubHeading": "React.js | Node.js | Express.js | MongoDB",
-        "pjText": "<strong>Purpose:</strong> A platform for users to collaborate and register for events.<br/><strong>Features:</strong> Collab requests, Profile creation/deletion, Accept/Deny requests, Event registration, Email verification.<br/><strong>Responsive:</strong> Built with SCSS Grid/Flexbox."
-      },
-      {
-        "pjTitle": "Airline Data Analytics",
-        "pjSubHeading": "Python | NumPy | Matplotlib | Seaborn | Chart.js",
-        "pjText": "<strong>Purpose:</strong> Analyze airline booking data to detect seasonal & city-wise trends.<br/><strong>Features:</strong> Data cleaning, Chart visualizations, Analysis algorithms."
+        "pjTitle": "Portfolio Website",
+        "pjSubHeading": "React.js | Tailwind | GitHub Pages",
+        "pjText": "<strong>Year:</strong> 2025<br/><strong>Purpose:</strong> Showcase my skills, experience, and projects.<br/><strong>Features:</strong> Dark/Light theme toggle, multilingual support, responsive design, GitHub & LinkedIn integration."
       },
       {
         "pjTitle": "BP Measurement",
         "pjSubHeading": "ASP.NET MVC | SQL Database",
-        "pjText": "<strong>Purpose:</strong> Collect and analyze customer BP health data.<br/><strong>Features:</strong> Register/Login, Admin Dashboard, BP Chart, Add/Edit/Delete records."
+        "pjText": "<strong>Year:</strong> 2024<br/><strong>Purpose:</strong> Collect and analyze customer BP health data.<br/><strong>Features:</strong> Register/Login, Admin Dashboard, BP Chart, Add/Edit/Delete records."
+      },
+      {
+        "pjTitle": "Indie Fusion",
+        "pjSubHeading": "React.js | Node.js | Express.js | MongoDB",
+        "pjText": "<strong>Year:</strong> 2024<br/><strong>Purpose:</strong> A platform for users to collaborate and register for events.<br/><strong>Features:</strong> Collab requests, Profile creation/deletion, Accept/Deny requests, Event registration, Email verification."
+      },
+      {
+        "pjTitle": "Airline Data Analytics",
+        "pjSubHeading": "Python | NumPy | Matplotlib | Seaborn | Chart.js",
+        "pjText": "<strong>Year:</strong> 2023<br/><strong>Purpose:</strong> Analyze airline booking data to detect seasonal & city-wise trends.<br/><strong>Features:</strong> Data cleaning, Chart visualizations, Analysis algorithms."
       },
       {
         "pjTitle": "CRUD Application",
         "pjSubHeading": "React.js | Node.js | Express.js | API Integration",
-        "pjText": "<strong>Purpose:</strong> Learn full-stack integration with React & Express.<br/><strong>Features:</strong> Add, Edit, Delete, Create records."
+        "pjText": "<strong>Year:</strong> 2021<br/><strong>Purpose:</strong> Learn full-stack integration with React & Express.<br/><strong>Features:</strong> Add, Edit, Delete, Create records."
+      },
+      {
+        "pjTitle": "Silent Week Page",
+        "pjSubHeading": "React.js | Node.js | React-Bootstrap | AWS S3 & Lambda | SQL",
+        "pjText": "<strong>Year:</strong> 2020<br/><strong>Purpose:</strong> Keep customers engaged during production downtime.<br/><strong>Features:</strong> Spin the Wheel, Dino Game, Countdown Timer, FAQ."
+      },
+      {
+        "pjTitle": "Symphony Application",
+        "pjSubHeading": "HTML5 | CSS3 | JavaScript | Azure",
+        "pjText": "<strong>Year:</strong> 2019<br/><strong>Purpose:</strong> Allow users to check in to the company's annual event via unique QR code.<br/><strong>Features:</strong> QR Code generation, KBC Quiz Theme, Dress Code, Travel & Event Routes, Dining."
       }
     ]
   }
