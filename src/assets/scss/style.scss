@@ -7,25 +7,38 @@
 body {
   background-color: var(--primary-background) !important;
   color: var(--primary-color) !important;
+  .page-wrapper{
+  width: 80%;
+  margin: auto;
+  
 
   //Global Main Heading
   .main-heading h2 {
     font-size: 2rem;
     text-align: center;
-    // padding: 7rem 0 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   //Global Main Button
   .btn {
-    width: 200px;
+    // width: 200px;
     font-size: 18px;
     color: var(--primary-color);
     border: 1px solid;
+    // margin: 10px;
 
     &:hover {
       background-color: var(--secondary-color);
       color: var(--primary-background);
       border: 1px solid var(--primary-color);
+    }
+
+    @media (max-width:1023px) and (min-width:767px){
+      width: 100px;
+      font-size: 16px;
+      margin: 10px;
+
     }
   }
 
@@ -53,8 +66,8 @@ body {
   .contact {
     padding: 40px 20px;
     text-align: center;
-    background-color: var(--primary-card-bg);
-    color: #e3f7f9;
+      background-color: var(--card-bg);
+      color: var(--primary-card-bg);
 
     .callEmail {
       display: flex;
@@ -74,4 +87,8 @@ body {
   #projects {
     scroll-margin-top: 100px; /* Adjust based on your header height */
   }
+@media (max-width:1024px){
+width: 100%;
+}
+}
 }

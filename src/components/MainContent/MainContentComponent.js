@@ -4,25 +4,25 @@ import TopSection from '../../Helpers/TopSection';
 import Education from '../Education/Education';
 import './mainContent.scss'
 import Experience from '../Experience/Experience';
-import PPComponent from '../Publication/PPComponent';
+// import PPComponent from '../Publication/PPComponent';
 import { ProjectComponent } from '../Projects/ProjectComponent';
-export default function MainContentComponent({ main_component, projects }) {
+export default function MainContentComponent({ projects }) {
   return (
     <>
-      <TopSection {...main_component} />
+      <TopSection />
       <hr />
       <Experience />
       <hr />
       <Education />
       <hr />
-      <SkillsComponent {...main_component} />
+      <SkillsComponent />
       <hr />
       <ProjectComponent {...projects}/>
       <hr />
-      <PPComponent />
-      <hr />
+      {/* <PPComponent /> */}
+      {/* <hr /> */}
       <GetInTouchSection />
-      <hr />
+      {/* <hr /> */}
     </>
   );
 }

@@ -12,7 +12,7 @@ const TopSection = () => {
 
   return (
       <div className="container top-container" id='about-me'>
-  <section className="pt-5 mt-5 main-content">
+  <section className="main-content">
     <div className="main-content-row-flex">
       {/* Left: Text */}
       <div className="main-content-left">
@@ -27,14 +27,7 @@ const TopSection = () => {
           <br /> */}
           Expertise in Frontend (React, JavaScript, Bootstrap), Backend (.NET Core, APIs), and Databases (SQL, MongoDB)
         </p>
-        <div className="contactResume d-flex">
-          <a className="btn btn-outline text-center mx-2 my-2" href="/#contactMe">
-          Contact Me
-        </a>
-        <a className="btn btn-outline text-center mx-2 my-2" href={resume} target="_blank" rel="noopener noreferrer" download>
-            Resume
-        </a>
-        </div>
+        
       </div>
 
       {/* Middle: Image */}
@@ -49,6 +42,14 @@ const TopSection = () => {
           {infoData.map(({ title, subtitle }) => (
             <InfoBlock title={title} subtitle={subtitle} key={title} />
           ))}
+        </div>
+        <div className="contactResume">
+          <a className="btn btn-outline text-center" href="/#contactMe">
+          Contact Me
+        </a>
+        <a className="btn btn-outline text-center" href={resume} target="_blank" rel="noopener noreferrer" download>
+            Resume
+        </a>
         </div>
       </div>
     </div>

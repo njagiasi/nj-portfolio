@@ -1,30 +1,27 @@
 {
-  "main_component":{
-    "cardData": [
-      {
-        "cardTitle":"Languages & Databases",
-        "cardImage": "web.jpg",
-        "cardText":"Python, JavaScript, ASP.NET, PostgreSQL, MongoDB, HTML5, CSS3"
-      },
-      {
-        "cardTitle":"Libraries & Frameworks",
-        "cardImage":"db.png",
-        "cardText":"React.js, Express.js, Node.js, Flask, Bootstrap, Pandas, NumPy, Matplotlib"
-      },
-      {
-        "cardTitle":"Version Control & Deployment",
-        "cardImage":"script.png",
-        "cardText":"Git, Github, Bitbucket, AWS (S3, Cloudfront), Azure DevOps"
-      },
-      {
-        "cardTitle":"Testing",
-        "cardImage":"ms.png",
-        "cardText":"Postman, Cypress, Selenium IDE, React Testing Library, Jenkins, Jekyll"
-      }
-    ]
-  },
   "projects":{
     "pjData": [
+      {
+        "pjTitle":"Symphony - 2019",
+        "pjSubHeading":"Application",
+        "pjImage": "Symphony.png",
+        "pjText":"<span> Purpose: </span> Application for grand event in organization. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, CSS3, PowerApps, SharePoint, MySql, Azure",
+        "pjButton":"Go somewhere"
+      },
+      {
+        "pjTitle":"Silent Week - 2020",
+        "pjSubHeading":"Web Page",
+        "pjImage": "Rocket.png",
+        "pjText":"<span> Purpose: </span> Build end to end web application having features like spin wheel, Timer countdown,FAQ, Testimonial. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, Bootstrap4, javaScript, Angular 8",
+        "pjButton":"Go somewhere"
+      },
+      {
+        "pjTitle":"EmPower-2021",
+        "pjSubHeading":"Web Page",
+        "pjImage": "EmPower.png",
+        "pjText":"<span> Purpose: </span> Build the End to End website for Leader Gamification. <br /> <span>Compnay: </span>Here Solutions <br /> <span> Technologies : </span> Html5, SCSS, AngularJs, Bootstrap4",
+        "pjButton":"Go somewhere"
+      },
       {
         "pjTitle":"Symphony - 2019",
         "pjSubHeading":"Application",

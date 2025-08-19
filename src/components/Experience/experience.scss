@@ -46,22 +46,23 @@
     }
 
     .timeline_card {
-      background-color: var(--primary-card-bg);
-      color: var(--primary-background);
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      background-color: var(--card-bg);
+      color: var(--primary-card-bg);
+      border: 8px solid var(--card-bg);
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      padding: 5px 15px;
 
       .card_para {
         display: flex;
         gap: 0.5rem;
         justify-content: space-between;
-        background-color: var(--primary-background);
-        padding: 5px 10px;
+        background-color: var(--primary-card-bg);
+        padding: 10px;
         margin: 10px 0;
-        color: var(--primary-color);
+        color: var(--primary-background);
 
-        p{
+        p {
           margin: 0;
         }
       }

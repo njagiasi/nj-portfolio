@@ -1,27 +1,25 @@
+.top-container{
+margin-top: 5rem;
 .main-content {
   color: var(--primary-color);
 
   .main-content-row-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1.5rem;
-    align-items: flex-start;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .main-para {
+      font-size: 15px;
+    }
     .main-content-left {
       order: 1;
-      flex: 1 1 30%;
-      max-width: 300px;
 
       h1 span {
         color: var(--secondary-color);
       }
-      h5{
+      h5 {
         color: var(--secondary-color);
       }
 
       .main-para {
-        font-size: 15px;
         color: var(--secondary-color) !important;
       }
     }
@@ -50,7 +48,7 @@
         background-color: rgba(var(--primary-transparent-bg), 0.72);
         font-weight: bold;
         position: absolute;
-        top: 90%;
+        top: 89%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 0;
@@ -78,23 +76,47 @@
           }
         }
       }
+      .contactResume {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        .btn{
+          padding: 5px;
+        }
+      }
     }
+
     // Responsive for small screens
     // for tablet and below
     @media (max-width: 1023px) and (min-width: 767px) {
+      grid-template-columns: repeat(3, 1fr);
+      h5 {
+        font-size: 1rem;
+      }
+      .main-para {
+        font-size: 12px;
+      }
+      .main-content-left {
+        h1 {
+          font-size: 1.75rem;
+        }
+      }
       .main-content-right {
         order: 3;
 
         .info-grid {
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(2, 1fr);
         }
       }
     }
     @media (max-width: 768px) {
+      grid-template-columns: 1fr;
       flex-direction: column;
       align-items: center;
       text-align: center;
-
+      .main-para {
+        font-size: 12px;
+      }
       .main-content-left {
         order: 2;
       }
@@ -122,4 +144,5 @@
       }
     }
   }
+}
 }

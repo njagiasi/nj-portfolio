@@ -12,11 +12,11 @@ export const ProjectComponent = (props) => {
       <div className="project-grid">
         {pjData.map(({ pjTitle, pjSubHeading, pjText, pjImage }, index) => (
           <div className="project-card" key={index}>
-            <img
+            {/* <img
               className="project-image"
               src={require(`../../assets/images/${pjImage}`)}
               alt={pjTitle}
-            />
+            /> */}
             <div className="project-content">
               <h3 className="ppheading">{pjTitle}</h3>
               <h4 className="ppSubheading">{pjSubHeading}</h4>

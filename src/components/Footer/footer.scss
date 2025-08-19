@@ -1,7 +1,7 @@
  //Footer
   footer {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--primary-background);
 
     .ficon a {
       position: relative;
@@ -9,8 +9,8 @@
       width: 45px;
       height: 45px;
       line-height: 42px;
-      background: #2e3138;
-      color: #9ea0a9 !important;
+      background: var(--primary-background);
+      color: var(--secondary-color) !important;
       text-align: center;
       border-radius: 50%;
       margin: 5px;
@@ -19,7 +19,7 @@
       padding-top: 5px;
 
       &:hover {
-        color: var(--secondary-color) !important;
+        color: var(--primary-color) !important;
       }
     }
 
