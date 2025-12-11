@@ -16,7 +16,7 @@ const Experience = () => {
     },
     {
       company: "eClerx Services Limited",
-      title: "React Developer",
+      title: "Associate Process Manager",
       year: "Jul 2022 – Nov 2022",
       description: [
         "Developed  React.js landing pages  for global financial client campaigns, ensuring cross-browser compatibility and pixel-perfect implementation.",
@@ -36,7 +36,7 @@ const Experience = () => {
     },
     {
       company: "HERE Technologies",
-      title: "Application Developer",
+      title: "Spatial Data Specialist II",
       year: "Dec 2017 – Apr 2021",
       description: [
         "Developed  real-time registration applications  using React.js integrated with SharePoint backend via Google AppScript.",
